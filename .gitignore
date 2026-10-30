@@ -1,0 +1,71 @@
+# ==========================================
+# 1. FPGA & Xilinx Vivado Build Artifacts
+# ==========================================
+# Vivado temporary files, project caches, and logs
+*.jou
+*.log
+*.pb
+*.mif
+*.wdb
+.Xil/
+*.str
+*.hw
+*.cache/
+*.hwdef
+*.runs/
+*.srcs/
+*.gen/
+*.sim/
+*.xpr
+
+# Compiled binary outputs (bitstreams and checkpoints)
+*.bit
+*.bin
+*.dcp
+*.mcs
+*.exo
+
+# ==========================================
+# 2. Node.js & Frontend (React / Vite)
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite / Next / parcel cache
+.vite/
+.parcel-cache/
+
+# ==========================================
+# 3. Environment Variables & Credentials
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# 4. Operating System & IDE Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code editor workspace configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.history/
+
+# JetBrains IDEs (IntelliJ, WebStorm, GoLand)
+.idea/
+*.iml
+*.iws
